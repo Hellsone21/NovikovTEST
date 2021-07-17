@@ -1,0 +1,621 @@
+.container2 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tit-usl {
+  text-align: center;
+  padding: 65px 50px;
+}
+
+.card__photo {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__title {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: black;
+  padding: 10px 10px;
+}
+
+.card__title:hover {
+  background: red;
+  color: white;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.card__item {
+  width: calc(100% / 3 - 25px);
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.card__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.key {
+  padding-top: 50px;
+}
+
+.info-keys {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 20px;
+  color: dodgerblue;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 800;
+}
+
+.info-title2 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.info-title3 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.items_intro {
+  padding-top: 100px;
+}
+
+.items-inner {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 75px;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.items-card {
+  width: calc(100% / 3 - 25px);
+  cursor: pointer;
+  margin-bottom: 40px;
+  border: 1px solid #888181;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px 20px;
+}
+
+.items-card:hover {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.items-photo {
+  display: block;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.icream-info {
+  padding-top: 100px;
+}
+
+.cream-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  color: dodgerblue;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.cream-text {
+  margin-bottom: 30px;
+}
+
+.table-cream {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+}
+
+.help-title {
+  font-size: 32px;
+  color: dodgerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.help-text {
+  font-size: 24px;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.help-text-title {
+  margin-bottom: 30px;
+}
+
+.war-text {
+  font-size: 28px;
+  background: gold;
+  font-weight: 500;
+}
+
+.help-text2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.help-text3 {
+  margin-bottom: 40px;
+}
+
+.text-4 {
+  font-size: 24px;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.help-text-5 {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  padding-top: 100px;
+}
+
+.main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 32px;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.main-text-title {
+  margin-bottom: 30px;
+}
+
+.main-ul {
+  margin-bottom: 30px;
+}
+
+.main-link {
+  list-style: none;
+}
+
+.table {
+  margin: 50px 80px 0px 0px;
+}
+
+.kids {
+  padding-top: 100px;
+}
+
+.kids-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 35px;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.kids-title {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.auto {
+  padding-top: 100px;
+}
+
+.main-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 32px;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+.main-title {
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #444;
+  z-index: 3333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container_main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name-com {
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 16px;
+}
+
+.nav-links {
+  font-size: 16px;
+  margin-left: 35px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links:hover {
+  padding: 8px 10px;
+  background: #080808;
+  border-radius: 5px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  min-height: 554px;
+  position: relative;
+}
+
+.about__intro:before {
+  content: "";
+  background: url(../img/2.jpg) 0 0 no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 554px;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+}
+
+.about_overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 110px;
+}
+
+.info_block {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid white;
+  -webkit-box-shadow: 0 0 10px rgba(77, 74, 74, 0.5);
+          box-shadow: 0 0 10px rgba(77, 74, 74, 0.5);
+  border-radius: 20px;
+  text-align: center;
+  height: 320px;
+}
+
+.info-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  color: #272229;
+  margin-bottom: 10px;
+}
+
+.info-adress {
+  margin-top: 15px;
+}
+
+.text-email {
+  display: block;
+  background: #444;
+  padding: 12px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.text-email:hover {
+  background: black;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.email-adress {
+  margin-top: 20px;
+}
+
+.block-1 {
+  padding: 20px 0;
+}
+
+.block1-title {
+  font-size: 28px;
+  color: dodgerblue;
+  text-align: center;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 1000;
+  background: red;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 0 0 4px red;
+          box-shadow: inset 0 0 0 4px red;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: translateY(25px);
+          transform: translateY(25px);
+}
+
+.scroll-up:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  content: '!';
+}
+
+.scroll-up:hover {
+  color: orange;
+}
+
+.scroll-up:active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: 0;
+          transform: 0;
+}
+/*# sourceMappingURL=style.css.map */
